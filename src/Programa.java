@@ -355,12 +355,10 @@ public class Programa {
                                                     System.out.println("Nome: "+consultaPessoa[i][0]+" ficará nesta sala no primeiro e no segundo período. ");
                                                 }
                                                 if(consultaPessoa[i][1].equals(listaSalas[pessoaConsultada-1][0]) && !consultaPessoa[i][2].equals(listaSalas[pessoaConsultada-1][0])){
-                                                    System.out.println("Nome: "+consultaPessoa[i][0]+" ficará nesta sala no primeiro período, " +
-                                                            "e no segundo ficará na "+consultaPessoa[i][2]);
+                                                    System.out.println("Nome: "+consultaPessoa[i][0]+" ficará nesta sala apenas no primeiro período");
                                                 }
                                                 if(!consultaPessoa[i][1].equals(listaSalas[pessoaConsultada-1][0]) && consultaPessoa[i][2].equals(listaSalas[pessoaConsultada-1][0])){
-                                                    System.out.println("Nome: "+consultaPessoa[i][0]+" ficará nesta sala no segundo período, " +
-                                                            "e no primeiro ficará na "+consultaPessoa[i][1]);
+                                                    System.out.println("Nome: "+consultaPessoa[i][0]+" ficará nesta sala apenas no segundo período");
                                                 }
                                             }
                                             System.out.println();
@@ -379,10 +377,10 @@ public class Programa {
                                                     System.out.println("Nome: "+consultaPessoa[i][0]+" fará o primeiro e o segundo intervalo na "+consultaPessoa[i][3]);
                                                 }
                                                 if(consultaPessoa[i][3].equals(listaCafe[pessoaConsultada-1][0]) && !listaCafe[pessoaConsultada-1][0].equals(consultaPessoa[i][4])){
-                                                    System.out.println("Nome: "+consultaPessoa[i][0]+" fará o primeiro intervalo na neste espaço");
+                                                    System.out.println("Nome: "+consultaPessoa[i][0]+" fará o primeiro intervalo neste espaço");
                                                 }
                                                 if(!consultaPessoa[i][3].equals(listaCafe[pessoaConsultada-1][0]) && consultaPessoa[i][4].equals(listaCafe[pessoaConsultada-1][0])){
-                                                    System.out.println("Nome: "+consultaPessoa[i][0]+" fará o segundo intervalo na neste espaço");
+                                                    System.out.println("Nome: "+consultaPessoa[i][0]+" fará o segundo intervalo neste espaço");
                                                 }
                                             }
                                             System.out.println();
